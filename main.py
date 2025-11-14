@@ -19,7 +19,14 @@ def isiteven(num):
     return False
 
 def isitaninteger(num):
-  if num.is_integer():
+  #if num.is_integer():
+    #return True
+  #else:
+    #return False
+    
+  a = str(type(num))
+
+  if a == "<class 'int'>":
     return True
   else:
     return False
